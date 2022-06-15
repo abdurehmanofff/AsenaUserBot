@@ -275,7 +275,7 @@ def butonlastir(sayfa, moduller):
     butonlar = []
     for pairs in pairs[sayfa]:
         butonlar.append([
-            custom.Button.inline("🔸 " + pair, data=f"bilgi[{sayfa}]({pair})") for pair in pairs
+            custom.Button.inline("• " + pair, data=f"bilgi[{sayfa}]({pair})") for pair in pairs
         ])
 
     butonlar.append([custom.Button.inline("◀️ Geri", data=f"sayfa({(max_pages - 1) if sayfa == 0 else (sayfa - 1)})"), custom.Button.inline("İleri ▶️", data=f"sayfa({0 if sayfa == (max_pages - 1) else sayfa + 1})")])
@@ -360,7 +360,7 @@ Hesabınızı bot'a çevirebilirsiniz ve bunları kullanabilirsiniz. Unutmayın,
             sayfa = int(event.data_match.group(1).decode("UTF-8"))
             komut = event.data_match.group(2).decode("UTF-8")
             try:
-                butonlar = [custom.Button.inline("🔹 " + cmd[0], data=f"komut[{komut}[{sayfa}]]({cmd[0]})") for cmd in CMD_HELP_BOT[komut]['commands'].items()]
+                butonlar = [custom.Button.inline("・ " + cmd[0], data=f"komut[{komut}[{sayfa}]]({cmd[0]})") for cmd in CMD_HELP_BOT[komut]['commands'].items()]
             except KeyError:
                 return await event.answer("❌ Bu modüle açıklama yazılmamış.", cache_time=0, alert=True)
 
