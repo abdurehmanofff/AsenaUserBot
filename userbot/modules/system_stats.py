@@ -137,7 +137,7 @@ async def amialive(e):
             telethon=version.__version__,
             python=python_version(),
             asena=ASENA_VERSION,
-            message= await e.client.send_file(e.chat_id, LINK, caption="Asena çalışıyor"),
+            message= await e.client.send_file(e.chat_id, LINK, caption="Tanrı Türk'ü korusun. Asena çalışıyor. Asena Version:v4.0"),
             plugin=len(CMD_HELP),
             id=me.id,
             username='@' + me.username if me.username else f'[{me.first_name}](tg://user?id={me.id})',
