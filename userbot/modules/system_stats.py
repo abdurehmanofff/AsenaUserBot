@@ -134,7 +134,7 @@ async def amialive(e):
     me = await e.client.get_me()
     if type(PLUGIN_MESAJLAR['alive']) == str:
         await e.edit(PLUGIN_MESAJLAR['alive'].format(
-        await e.delete();
+        await e.delete()
             telethon=version.__version__,
             python=python_version(),
             asena=ASENA_VERSION,
