@@ -66,6 +66,9 @@ if not LANGUAGE in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
 # Asena Sürümü
 ASENA_VERSION = "v4.0"
 
+# LINK 
+LINK = "https://telegra.ph/file/907f2381e5f5e3a7ce2ee.mp4"
+
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
 API_HASH = os.environ.get("API_HASH", None)
