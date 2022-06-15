@@ -134,10 +134,11 @@ async def amialive(e):
     me = await e.client.get_me()
     if type(PLUGIN_MESAJLAR['alive']) == str:
         await e.edit(PLUGIN_MESAJLAR['alive'].format(
+        await e.delete();
             telethon=version.__version__,
             python=python_version(),
             asena=ASENA_VERSION,
-            message= await e.client.send_file(e.chat_id, LINK, caption="Tanrı Türk'ü korusun. Asena çalışıyor. Asena Version:v4.0"),
+            message= await e.client.send_file(e.chat_id, LINK, caption="Tanrı Türk'ü korusun. Asena çalışıyor. \n Asena Version:v4.0"),
             plugin=len(CMD_HELP),
             id=me.id,
             username='@' + me.username if me.username else f'[{me.first_name}](tg://user?id={me.id})',
