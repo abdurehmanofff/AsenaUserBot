@@ -137,6 +137,7 @@ async def amialive(e):
             telethon=version.__version__,
             python=python_version(),
             asena=ASENA_VERSION,
+            silinsenela= await e.delete(),
             message= await e.client.send_file(e.chat_id, LINK, caption="`Tanrı Türk'ü korusun. Asena çalışıyor.` \n `Asena Version`:v4.0 \n `Python`:3.8.6 \n `Telethon`:1.24.0 "),
             plugin=len(CMD_HELP),
             id=me.id,
