@@ -21,7 +21,7 @@
             "PLUGIN_BUGGED": "`Yükləmə uğurlu deyil! Plugində xəta aşkar edildi.\n\nXəta: `",
             "PLUGIN_DESC": "Bu plugin qırağdan botunuz üçün yüklənmişdir. İstifadəsi:",
             "PLUGIN_DOWNLOADED": "`Modul uğurla yükləndi! %s yazaraq istifadə edə bilərsiniz.`",
-            "PLUGIN_WITHOUT_DESC": "Bu plugin qırağdan yüklənmişdir. İstifadəsi: #ƏMR TAPILMADI#",
+            "PLUGIN_WITHOUT_DESC": "Bu plugin qıraqdan yüklənmişdir. İstifadəsi: #ƏMR TAPILMADI#",
             "PLUGIN_DESCLESS": "`Modul uğurla yükləndi! Ancaq əmri təssüf ki, tapa bilmədim.`",
             "PLUG_DESC": "Bu plugin qırağdan üçün yüklənmişdir. İstifadəsi: .",
             "PLUG_MESSAGE": "`Modul uğurla yükləndi! .%s azaraq istifadə edə bilərsiniz.`",
@@ -45,11 +45,11 @@
         "admin": {
             "PP_TOO_SMOL": "```Bu şəkil çox balacadır. Zəhmət olmasa daha böyük şəkil istifadə edin```",
             "PP_ERROR": "```Şəkil emal olunarkən bir xəta baş verdi.```",
-            "NO_ADMIN": "`İdarəçi deyiləm!`",
+            "NO_ADMIN": "`Admin deyiləm!`",
             "NO_PERM": "`Lazım olan səlahiyyətə sahib deyiləm!`",
             "NO_SQL": "`SQL olmayan rejimdə işləyir`",
             "CHAT_PP_CHANGED": "`Qrup şəkili dəyişdirildi`",
-            "CHAT_PP_ERROR": "`Şəkili yeniləyərkən bəzi xətalar baş verdi.\nBəlkə İdarəçi deyiləm`\n`və yaxud da lazım olan xüsusiyyətlərə sahib deyiləm.`",
+            "CHAT_PP_ERROR": "`Şəkili yeniləyərkən bəzi xətalar baş verdi.\nBəlkə Admin deyiləm`\n`və yaxud da lazım olan xüsusiyyətlərə sahib deyiləm.`",
             "INVALID_MEDIA": "```Media etibarlı deyil.```",
             "PRIVATE": "`Bu əmr xüsusi mesajda istifadə edilə bilməz!`",
             "EKLE": "`Uğurla əlavə edildi`",
@@ -66,7 +66,7 @@
             "SUCCESS_PROMOTE": "`Uğurla icazə verildi!`",
             "UNPROMOTING": "`İcazə aşağı salınır...`",
             "UNPROMOTE": "`İcazə uğurla aşağı salındı!`",
-            "NO_PERM_BUT_BANNED": "`Mesaj yazmağa icazəm yoxdur! Ancaq yenədə istifadəçi qadağan edildi!`",
+            "NO_PERM_BUT_BANNED": "`Mesaj yazmağa icazəm yoxdur! Ancaq yenə də istifadəçi qadağan edildi!`",
             "REASON": "Səbəbi",
             "UNBANNING": "`Qadağa ləğv edilir...`",
             "UNBANNED": "```Qadağa uğurla ləğv edildi```",
@@ -85,11 +85,11 @@
             "GMUTED": "`İstifadəçi dünya miqyasında susduruldu!`",
             "NO_ZOMBIE": "`Silinmiş hesab tapılmadı, qrup təmizdir!`",
             "ZOMBIE": "`Var olmayan/silinmiş/zombi hesaplar  axtarılır...`",
-            "ZOMBIES": "**`Bu qrupda` **{}** `ədəd Var olmayan/ silinmiş / zombi hesab tapıldı,\ntəmizləmək üçün` **.zombies clean** `komandasını icra edin`",
+            "ZOMBIES": "**`Bu qrupda` **{}** `ədəd Var olmayan/ silinmiş / zombi hesab tapıldı,\ntəmizləmək üçün` **.zombies clean** `əmrindən istifadə edin`",
             "CLEANING": "`Silinmiş hesablar çıxarılır...`",
             "NO_BAN_YT": "`Bu qrupda ban icazəm yoxdur!`",
             "DELETED": "ədəd silinmiş hesab qrupdan çıxarıldı",
-            "ADMINS": "qrupunun idarəçiləri",
+            "ADMINS": "qrupunun adminləri",
             "NEED_MSG": "`Sabitləmək üçün hər hansı bir mesaja cavab yazın!`",
             "PINNED": "`Uğurla sabitləndi!`",
             "NOT_FOUND": "`İstifadəçi tapılmadı.`",
@@ -99,7 +99,7 @@
             "UNWARNED": "`Bu şəxsə onsuzda heç vaxt xəbərdarlıq edilməyib!`",
             "UNWARN": "Xəbərdarlığınız silindi, amma yenə də diqqətli olun! Yeni vəziyyət:",
             "WARNING": "`Xəbərdarlıq göndərilir...`",
-            "WARN": "dəfə xəbərdar edildi; xaiş edirik diqqətli olun!"
+            "WARN": "dəfə xəbərdar edildi; xahiş edirik diqqətli olun!"
         },
 
         "afk": {
@@ -165,8 +165,8 @@
             "ID": "İstifadəçi ID:",
             "GROUP": "Qrup ID:",
             "NEED_LOG": "`Bu xüsusiyyəti aktivləşdirmək üçün giriş açıq olmalıdır!`",
-            "UNMUTED": "`Çatın səsi açıldı`",
-            "MUTED": "`Çat səssiz rejimdədir!`"
+            "UNMUTED": "`Söhbətin səsi açıldı`",
+            "MUTED": "`Söhbət səssiz rejimdədir!`"
         },
 
         "degistir": {
@@ -198,7 +198,7 @@
 
         "deepfry":{
             "CANT_DEEPFRY":"`Bunu deepfry edə bilmərəm!`",
-            "REPLY_PHOTO":"`Deepfry edə bilməyim üçün bir şəkilə və yaxud çıkartmaya cavab yazın!`",
+            "REPLY_PHOTO":"`Deepfry edə bilməyim üçün bir şəkilə və yaxud stickerə cavab yazın!`",
             "MEDIA_DOWNLOADING":"`Media yüklənir...`",
 			"APPLYING_DEEPFRY":"`Media deepfry uyğulanır...`"
         },
@@ -234,24 +234,24 @@
             "FORBIDDEN_IN_CHANNEL": "`Kanallarda bu əmrə icazə verilmir`",
             "NEED_CODE": "`Qiymətləndirmək üçün bir açıqlama verin.`",
             "WARNING": "`Bu təhlükəli bir əməliyyatdır! Təsdiq olunmayıb!`",
-            "BIG_FILE": "`Çıxış çox böyük, fayl kimi göndərilir`",
+            "BIG_FILE": "`Çıxış çox böyükdür, fayl kimi göndərilir`",
             "QUERY": "Sorğu",
             "RESULT": "Nəticə",
-            "EMPTY_RESULT": "Nəticə qaytarıla bilmədi / Səhfdir",
+            "EMPTY_RESULT": "Nəticə qaytarıla bilmədi / Səhvdir",
             "ERROR": "İstisna"
         },
 
         "ezanvakti": {
             "NEED_CITY": "Zəhmət olmasa əmrin yanında bir şəhər adı qeyd edin.",
             "NOT_FOUND": "üçün məlumat tapılmadı.",
-            "DIYANET": "Dini Namaz Vaxtları",
+            "DIYANET": "Diyanet Namaz Vaxtları",
             "LOCATION": "Yer",
             "IMSAK": "İmsak",
             "GUNES": "Günəş",
             "OGLE": "Günorta",
-            "IKINDI": "Günortadan sonra",
+            "IKINDI": "İkindi",
             "AKSAM": "Axşam",
-            "YATSI": "Gecə"
+            "YATSI": "Yatsı"
         },
 
         "filter": {
@@ -264,7 +264,7 @@
             "DELETED": "filtri uğurla silindi",
             "GENELFILTERS": "`Heç ümumi filter yoxdur.`",
             "GENEL_FILTERS": "Ümumi filtrlər:",
-            "FILTERS": "`Bu çatda heç bir filter yoxdur.`",
+            "FILTERS": "`Bu söhbətdə heç bir filter yoxdur.`",
             "_FILTERS": "Çatdakı filtlər:",
             "NEED_BOTLOG": "`BOTLOG_CHATID dəyəri filtrə cavab olaraq bir medianın qeyd olunmasından əvvəl təyin olunmalıdır.`"
         },
@@ -345,12 +345,12 @@
         },
 
         "locks":{
-		    "EVERYTHING_LOCK": "`Dostum olmayan birşeyi qıfıllaya bilmirəm!`",
-			"INVALID_MEDIA_TYPE": "`Səhf media növü: %s`",
+		    "EVERYTHING_LOCK": "`Dostum olmayan birşeyi kilidləyə bilmirəm!`",
+			"INVALID_MEDIA_TYPE": "`Səhv media növü: %s`",
 			"LOCK": "`%s bu çat üçün qıfıllandı`",
 			"INVALID_AUTHORITY": "`Bunu etmək hüququna sahib olduğunuzdan əminsiniz?`\n**Xəta:**",
-			"EVERYTHING_UNLOCK": "`Olmayan birşeyin qıfılını aça bilmirəm!`",
-			"UNLOCK": "`Bu çat üçün %s qıfılı açıldı`"
+			"EVERYTHING_UNLOCK": "`Olmayan birşeyin kilidini aça bilmirəm!`",
+			"UNLOCK": "`Bu söhbət üçün %s kilidi açıldı`"
         },
 
         "misc": {
@@ -361,8 +361,8 @@
             "SLEEP_DESC": "İstifadə qaydası: `.sleep [saniyə]`",
             "SLEEPING": "`Xoruldayaraq yatıram...`",
             "GOODMORNIN_YALL": "`Sabahınız xeyir!`",
-            "GOODBYE_MFRS": "`Görüşənədək... *Windows XP söndürlmə səsi*`",
-            "RESTARTING": "`Bot yenidən qoşulur..`",
+            "GOODBYE_MFRS": "`Görüşənədək... *Windows XP söndürülmə səsi*`",
+            "RESTARTING": "`Bot yenidən başladılır..`",
             "SUPPORT_GROUP": "[Buradan](http://t.me/AsenaSupport) Dəstək qrupumuza çata bilərsiniz.",
             "CREATOR": "Bu bot \n[Yusuf Usta](https://t.me/Fusuf) tərəfindən hazırlanmışdır. \n",
             "README": "[Asena README.md](https://github.com/quiec/AsenaUserBot/blob/master/README.md)",
@@ -371,8 +371,8 @@
         },
 
         "notes": {
-            "NOT_FOUND": "`Bu çatda qeyd tapılmadı`",
-            "NOTES": "Bu çatda qeydiyyatlı qeydlər",
+            "NOT_FOUND": "`Bu söhbətdə qeyd tapılmadı`",
+            "NOTES": "Bu söhbətdə qeydiyyatlı qeydlər",
             "CLEAR_NOT_FOUND": "qeydi tapa bilmədim",
             "CLEAR": "qeyd uğurla silindi",
             "SUCCESS": "Qeyd uğurudur",
@@ -390,11 +390,11 @@
         "pmpermit": {
             "BLOCKED": "`Sən mənim Sahibimin PM-sını spamlayırsan, bu mənim heç xoşuma gəlmir.`\n`Hazırda BLOKLANDIN və SPAM olaraq bildirildin, gələcəkdə dəyişiklik olmadığı ərəfəyədək..`",
             "ERROR": "PM sayğacı başını itirmiş kimidir, botu zəhmət olmasa yenidən başladın.",
-            "BOTLOG_BLOCKED": " adamı sadəcə bir xəyal qırıqlığı idi. PM-nı məşğul etdiyi üçün bloklandı.",
+            "BOTLOG_BLOCKED": " üçün sadəcə bir xəyal qırıqlığı idi. PM-nı məşğul etdiyi üçün bloklandı.",
             "NOTIFOFF": "`PM icazəsi olmayan istifadəçilərin bildirişləri səssizə alındı!`",
             "NOTIFON": "`PM icazəsi olmayan istifadəçilərin bildiriş göndərməsinə icazə verildi!`",
             "ALREADY": "`İstifadəçi hal-hazırda PM göndərə bilməlidir.`",
-            "DISAPPROVE": "istifadəmisinin PM göndərə bilmə icazəsi ləğv edildi.",
+            "DISAPPROVE": "istifadəçisinin PM göndərə bilmə icazəsi ləğv edildi.",
             "UNBLOCKED": "Qadağan qaldırıldı."
         },
 
@@ -436,7 +436,7 @@
             "ONLINE_RBG": "Onlayn görüntüdən arxa fonu silin",
             "NEED": "`Arxa fonu silmək üçün bir şeyə ehtiyacım var.`",
             "CAPTION": "Remove.bg arxa fon istifadə edərək silindi",
-            "ERROR": "Xəta (Səhf API key olduğunu zənn edirəm..)"
+            "ERROR": "Xəta (Səhv API key olduğunu zənn edirəm..)"
         },
 
         "reverse": {
@@ -489,12 +489,12 @@
             "READING": "Oxuyuram... A B C...",
             "OCR_ERROR": "Şübhəsiz ki, bir şey oldu. Oxuya bilmədim.",
             "SEE_SOMETHING": "Bir şeylər oxudum",
-            "VOICY_WAITING": "Ses dinlənir... Erkan enegtarlar...",
+            "VOICY_WAITING": "Səs dinlənir... Erkan enegtarlar...",
             "VOICY_LANG_ERR": "`Botu başlatmalı və Azərbaycanca etməlisiniz.`",
             "VOICY_ERR": "`Səs pozulur, səs. Dediklərinizi anlamadım.`",
             "HEAR_SOMETHING": "Bir şey eşitdim",
             "CANT_REPLY_BOTS": "`Siz botlara cavab verə bilməzsiniz.`",
-            "QUOTING": "`Sitat gətirir ...`",
+            "QUOTING": "`Sitat gətirilir ...`",
             "UNBLOCK_QUOTLY": "`Xahiş edirəm @QuotLyBot'u blokdan çıxarın və yenidən cəhd edin '",
             "QUOTLY_VALUE_ERR": "`Yalnız rəqəmlər daxil edə bilərsiniz! Nümunə: ``.q 2`"
         },
