@@ -68,7 +68,7 @@ ASENA_VERSION = "v4.0"
 
 # LINK 
 LINK = "https://telegra.ph/file/907f2381e5f5e3a7ce2ee.mp4"
-
+LOGO = "https://telegra.ph/file/83c856456b025fd1f2fe9.jpg"
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
 API_HASH = os.environ.get("API_HASH", None)
@@ -313,6 +313,7 @@ with bot:
                 rev_text = query[::-1]
                 veriler = (butonlastir(0, sorted(CMD_HELP)))
                 result = await builder.article(
+                logo = LOGO
                     f"Lütfen Sadece .yardım Komutu İle Kullanın",
                     text=f"**🐺 Tanrı Türk'ü Korusun!** [Asena](https://t.me/AsenaUserBot) __Çalışıyor...__\n\n**Yüklenen Modül Sayısı:** `{len(CMD_HELP)}`\n**Sayfa:** 1/{veriler[0]}",
                     buttons=veriler[1],
